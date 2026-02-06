@@ -1,0 +1,213 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{appraisal_year}-{cycle_name}-{employee_name}",
+ "creation": "2025-12-09 11:24:18.971688",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "employee_details_section",
+  "employee",
+  "employee_name",
+  "reporting_officer_perner",
+  "column_break_qovs",
+  "reporting_officer_name",
+  "reviewing_officer_perner",
+  "reviewing_officer_name",
+  "appraisal_calendar_details_section",
+  "appraisal_control",
+  "appraisal_year",
+  "column_break_pcku",
+  "start_date",
+  "end_date",
+  "cycle_name",
+  "objective_section",
+  "objective",
+  "training_need",
+  "acceptance_deadline",
+  "ro_window_open",
+  "rvo_window_open",
+  "employee_window_open",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "employee",
+   "fieldtype": "Link",
+   "label": "Employee",
+   "options": "Employee Supervisor Mapping"
+  },
+  {
+   "fetch_from": "employee.employee_name",
+   "fieldname": "employee_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Employee Name ",
+   "read_only": 1
+  },
+  {
+   "fetch_from": "employee.reporting_officer",
+   "fieldname": "reporting_officer_perner",
+   "fieldtype": "Data",
+   "label": "Reporting Officer PerNer"
+  },
+  {
+   "fetch_from": "employee.reporting_officer_name",
+   "fieldname": "reporting_officer_name",
+   "fieldtype": "Data",
+   "label": "Reporting Officer Name",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_qovs",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fetch_from": "employee.reviewing_officer",
+   "fieldname": "reviewing_officer_perner",
+   "fieldtype": "Data",
+   "label": "Reviewing Officer PerNer"
+  },
+  {
+   "fetch_from": "employee.reviewing_officer_name",
+   "fieldname": "reviewing_officer_name",
+   "fieldtype": "Data",
+   "label": "Reviewing Officer Name"
+  },
+  {
+   "fieldname": "objective_section",
+   "fieldtype": "Section Break",
+   "label": "Objective "
+  },
+  {
+   "fieldname": "employee_details_section",
+   "fieldtype": "Section Break",
+   "label": "Employee Details"
+  },
+  {
+   "fieldname": "objective",
+   "fieldtype": "Table",
+   "label": "Objective",
+   "options": "Objective Table",
+   "reqd": 1
+  },
+  {
+   "fieldname": "acceptance_deadline",
+   "fieldtype": "Date",
+   "hidden": 1,
+   "label": "Acceptance Deadline"
+  },
+  {
+   "fieldname": "training_need",
+   "fieldtype": "Table",
+   "label": "Training Need",
+   "options": "Training Requirement Item"
+  },
+  {
+   "fieldname": "appraisal_calendar_details_section",
+   "fieldtype": "Section Break",
+   "label": "Appraisal Calendar Details"
+  },
+  {
+   "fieldname": "appraisal_control",
+   "fieldtype": "Link",
+   "hidden": 1,
+   "label": "Appraisal Control",
+   "options": "Appraisal Calendar Period Control",
+   "read_only": 1
+  },
+  {
+   "fetch_from": "appraisal_control.appraisal_year",
+   "fieldname": "appraisal_year",
+   "fieldtype": "Data",
+   "label": "Appraisal Year"
+  },
+  {
+   "fieldname": "column_break_pcku",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fetch_from": "appraisal_control.start_date",
+   "fieldname": "start_date",
+   "fieldtype": "Data",
+   "label": "Start Date"
+  },
+  {
+   "fetch_from": "appraisal_control.end_date",
+   "fieldname": "end_date",
+   "fieldtype": "Data",
+   "label": "End Date"
+  },
+  {
+   "fetch_from": "appraisal_control.cycle_name",
+   "fieldname": "cycle_name",
+   "fieldtype": "Data",
+   "label": "Cycle Name"
+  },
+  {
+   "default": "0",
+   "fieldname": "ro_window_open",
+   "fieldtype": "Check",
+   "hidden": 1,
+   "label": "RO Window Open",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "rvo_window_open",
+   "fieldtype": "Check",
+   "hidden": 1,
+   "label": "RVO Window Open",
+   "read_only": 1
+  },
+  {
+   "allow_on_submit": 1,
+   "default": "0",
+   "fieldname": "employee_window_open",
+   "fieldtype": "Check",
+   "hidden": 1,
+   "label": "Employee Window Open",
+   "read_only": 1
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Employee Objective Setting",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2026-02-05 17:24:46.047798",
+ "modified_by": "Administrator",
+ "module": "APAR",
+ "name": "Employee Objective Setting",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}

@@ -1,0 +1,74 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:personnel_number",
+ "creation": "2025-12-08 16:34:17.001778",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "personnel_number",
+  "employee_name",
+  "column_break_mzbc",
+  "user_id",
+  "department"
+ ],
+ "fields": [
+  {
+   "fieldname": "personnel_number",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Personnel Number (PerNer)",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "employee_name",
+   "fieldtype": "Data",
+   "label": "Employee Name"
+  },
+  {
+   "fieldname": "column_break_mzbc",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "user_id",
+   "fieldtype": "Link",
+   "label": "User Id/ Email Id",
+   "options": "User",
+   "reqd": 1
+  },
+  {
+   "fieldname": "department",
+   "fieldtype": "Data",
+   "label": "Department"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-12-08 16:44:24.041837",
+ "modified_by": "Administrator",
+ "module": "APAR",
+ "name": "APAR Employee Master",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

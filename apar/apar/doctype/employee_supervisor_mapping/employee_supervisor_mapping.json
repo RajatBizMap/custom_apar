@@ -1,0 +1,100 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:employee_name",
+ "creation": "2025-12-08 17:29:14.110471",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "personnel_number",
+  "employee_name",
+  "reviewing_officer",
+  "reviewing_officer_name",
+  "column_break_kzau",
+  "reporting_officer",
+  "reporting_officer_name",
+  "start_date",
+  "end_date"
+ ],
+ "fields": [
+  {
+   "fieldname": "personnel_number",
+   "fieldtype": "Link",
+   "label": "Personnel Number",
+   "options": "APAR Employee Master"
+  },
+  {
+   "fetch_from": "personnel_number.employee_name",
+   "fieldname": "employee_name",
+   "fieldtype": "Data",
+   "label": "Employee Name",
+   "unique": 1
+  },
+  {
+   "fieldname": "reviewing_officer",
+   "fieldtype": "Link",
+   "label": "Reviewing Officer (PerNer)",
+   "options": "APAR Employee Master"
+  },
+  {
+   "fieldname": "reporting_officer",
+   "fieldtype": "Link",
+   "label": "Reporting Officer (PerNer)",
+   "options": "APAR Employee Master"
+  },
+  {
+   "fetch_from": "reviewing_officer.employee_name",
+   "fieldname": "reviewing_officer_name",
+   "fieldtype": "Data",
+   "label": "Reviewing Officer Name"
+  },
+  {
+   "fetch_from": "reporting_officer.employee_name",
+   "fieldname": "reporting_officer_name",
+   "fieldtype": "Data",
+   "label": "Reporting Officer Name"
+  },
+  {
+   "fieldname": "column_break_kzau",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "start_date",
+   "fieldtype": "Date",
+   "label": "Start Date"
+  },
+  {
+   "fieldname": "end_date",
+   "fieldtype": "Date",
+   "label": "End Date"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-12-08 17:47:17.824641",
+ "modified_by": "Administrator",
+ "module": "APAR",
+ "name": "Employee Supervisor Mapping",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -1,0 +1,37 @@
+{
+  "module": "APAR",
+  "title": "APAR",
+  "icon": "octicon octicon-briefcase",
+  "color": "#5896ff",
+  "shortcuts": [
+    {
+      "type": "doctype",
+      "name": "Employee Objective",
+      "label": "Employee Objective",
+      "description": "Manage Employee Objective",
+      "onboard": 1
+    },
+    {
+      "type": "doctype",
+      "name": "Objective Setting",
+      "label": "objective setting",
+      "description": "Employee can set the objective",
+      "onboard": 1
+    },
+    {
+      "type": "link",
+      "label": "Assigned To",
+      "link": "#List/Task/Assigned To"
+    },
+    {
+      "type": "link",
+      "label": "Tags",
+      "link": "#List/Tag"
+    },
+    {
+      "type": "link",
+      "label": "Share",
+      "link": "#List/Communication"
+    }
+  ]
+}
