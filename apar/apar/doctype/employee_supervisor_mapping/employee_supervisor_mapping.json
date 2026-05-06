@@ -9,6 +9,7 @@
  "field_order": [
   "personnel_number",
   "employee_name",
+  "department",
   "reviewing_officer",
   "reviewing_officer_name",
   "column_break_kzau",
@@ -68,12 +69,17 @@
    "fieldname": "end_date",
    "fieldtype": "Date",
    "label": "End Date"
+  },
+  {
+   "fieldname": "department",
+   "fieldtype": "Data",
+   "label": "Department"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2026-02-10 10:58:22.758397",
+ "modified": "2026-03-02 12:50:32.865505",
  "modified_by": "Administrator",
  "module": "APAR",
  "name": "Employee Supervisor Mapping",
@@ -97,5 +103,6 @@
  "rows_threshold_for_grid_search": 20,
  "sort_field": "modified",
  "sort_order": "DESC",
- "states": []
+ "states": [],
+ "track_changes": 1
 }

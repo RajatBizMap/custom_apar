@@ -1,0 +1,14 @@
+{
+ "add_total_row": 0,
+ "creation": "2026-02-16 00:00:00.000000",
+ "disable_prepared_report": 0,
+ "docstatus": 0,
+ "doctype": "Report",
+ "is_standard": "Yes",
+ "module": "APAR",
+ "name": "APAR Status Report",
+ "owner": "Administrator",
+ "ref_doctype": "Employee Objective Setting",
+ "report_name": "APAR Status Report",
+ "report_type": "Script Report"
+}

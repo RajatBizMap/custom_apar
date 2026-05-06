@@ -44,6 +44,21 @@ app_license = "unlicense"
 
 # include js in doctype views
 # doctype_js = {"doctype" : "public/js/doctype.js"}
+doctype_js = {
+    "Employee Objective Setting": "public/js/employee_objective_setting.js"
+}
+fixtures = [
+    {
+        "dt": "Workflow",
+        "filters": [["name", "=", "Test"]]
+    },
+    {
+        "dt": "Workflow State"
+    },
+    {
+        "dt": "Workflow Action Master"
+    }
+]
 # doctype_list_js = {"doctype" : "public/js/doctype_list.js"}
 # doctype_tree_js = {"doctype" : "public/js/doctype_tree.js"}
 # doctype_calendar_js = {"doctype" : "public/js/doctype_calendar.js"}

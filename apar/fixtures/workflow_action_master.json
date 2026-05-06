@@ -1,0 +1,156 @@
+[
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2025-10-06 16:49:15.090838",
+  "name": "Reject",
+  "workflow_action_name": "Reject"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2025-10-06 16:49:15.091164",
+  "name": "Review",
+  "workflow_action_name": "Review"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2025-11-14 16:23:48.079433",
+  "name": "Send for Approval",
+  "workflow_action_name": "Send for Approval"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2025-11-14 17:06:56.832936",
+  "name": "Save",
+  "workflow_action_name": "Save"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2025-11-14 17:08:16.554620",
+  "name": "Submit",
+  "workflow_action_name": "Submit"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2025-11-14 17:11:14.036384",
+  "name": "Approve Request",
+  "workflow_action_name": "Approve Request"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2025-11-24 12:32:11.213496",
+  "name": "Start Reporting Officer Review",
+  "workflow_action_name": "Start Reporting Officer Review"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2025-11-25 11:15:03.469073",
+  "name": "Send for Acceptance",
+  "workflow_action_name": "Send for Acceptance"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2025-11-25 17:13:12.110640",
+  "name": "Start Reviewing Officer Review",
+  "workflow_action_name": "Start Reviewing Officer Review"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2025-12-12 10:17:44.945919",
+  "name": "Submit to Reporting Officer",
+  "workflow_action_name": "Submit to Reporting Officer"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2026-03-02 15:45:00.470713",
+  "name": "Send Back to Reviewing Officer",
+  "workflow_action_name": "Send Back to Reviewing Officer"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2026-04-28 10:36:57.077235",
+  "name": "Resubmit",
+  "workflow_action_name": "Resubmit"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2026-04-28 10:38:32.825632",
+  "name": "Return",
+  "workflow_action_name": "Return"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2026-04-28 10:42:24.764336",
+  "name": "Ready",
+  "workflow_action_name": "Ready"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2026-04-28 10:43:03.671540",
+  "name": "Collected",
+  "workflow_action_name": "Collected"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2025-11-14 17:13:26.316569",
+  "name": "Reject Request",
+  "workflow_action_name": "Reject Request"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2025-11-14 15:50:30.715282",
+  "name": "Change Request",
+  "workflow_action_name": "Change Request"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2025-11-25 10:30:11.425717",
+  "name": "Accept",
+  "workflow_action_name": "Accept"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2025-11-24 12:34:54.731856",
+  "name": "Forward to Reviewing Officer",
+  "workflow_action_name": "Forward to Reviewing Officer"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2025-11-25 11:56:05.209769",
+  "name": "Auto Send",
+  "workflow_action_name": "Auto Send"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2025-10-06 16:49:15.090492",
+  "name": "Approve",
+  "workflow_action_name": "Approve"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2025-11-24 12:31:02.800981",
+  "name": "Submit to RO",
+  "workflow_action_name": "Submit to RO"
+ }
+]

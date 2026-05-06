@@ -9,7 +9,8 @@
   "objective_table_section",
   "objective",
   "target",
-  "weightage"
+  "weightage",
+  "dependencies"
  ],
  "fields": [
   {
@@ -19,7 +20,7 @@
   },
   {
    "fieldname": "objective",
-   "fieldtype": "Data",
+   "fieldtype": "Text",
    "in_list_view": 1,
    "label": "Objective",
    "length": 300,
@@ -27,7 +28,7 @@
   },
   {
    "fieldname": "target",
-   "fieldtype": "Date",
+   "fieldtype": "Text",
    "in_list_view": 1,
    "label": "Target"
   },
@@ -37,13 +38,19 @@
    "in_list_view": 1,
    "label": "Weightage",
    "reqd": 1
+  },
+  {
+   "fieldname": "dependencies",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Dependencies"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2026-02-05 17:25:57.265659",
+ "modified": "2026-04-06 16:20:50.668967",
  "modified_by": "Administrator",
  "module": "APAR",
  "name": "Objective Table",
